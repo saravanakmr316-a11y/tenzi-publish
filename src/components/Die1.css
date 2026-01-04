@@ -1,0 +1,10 @@
+.normal-image {
+  filter: grayscale(0%) brightness(100%);
+  transition: filter 0.3s ease;
+  cursor: pointer;
+}
+.clicked-image {
+  filter: grayscale(100%) brightness(70%);
+  transition: filter 0.3s ease;
+  cursor: pointer;
+}
